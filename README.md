@@ -10,7 +10,7 @@ Use Angular and services to create an application that manages famous quotes
 The first step whenever you're setting up an Angular App is to set up your foundation then check if your controller is tied to the view as it should be.
 * Create an index.html and a style.css file
 * Create a folder called js
-* In the js folder, create an app.js, dataService.js, and a mainCtrl.js file
+* In the js folder, create an app.js, dataSet rvice.js, and a mainCtrl.js file
 * Link your style.css sheet to your index.html page
 * In your index.html file create the basic structure of your html, be sure to include ng-app="quoteBook" and ng-controller="mainCtrl" to the appropriate places
 * In your app.js file set up 'home' for your angular app like below. Take note how you're going to include the [] as the second parameter. This tells Angular that you want to create a new module rather than just use an existing one. In all other files, we won't be using the [] because we want to use the module which has already been set.
